@@ -3,8 +3,11 @@ services:
   - riak
   - mongodb
   - cassandra
+  - redis
+  - memcached
 
 sudo: required
 language: ruby
 script:
   - rvm list rubies
+  - ps ax
