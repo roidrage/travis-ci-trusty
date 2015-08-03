@@ -1,14 +1,2 @@
-services:
-  - docker
-  - riak
-  - mongodb
-  - cassandra
-  - redis
-  - memcached
-  - rabbitmq
-
-sudo: required
-language: ruby
-script:
-  - rvm list rubies
-  - ps axu
+language: objective-c
+osx_image: xcode7.0
