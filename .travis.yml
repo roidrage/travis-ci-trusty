@@ -5,9 +5,10 @@ services:
   - cassandra
   - redis
   - memcached
+  - rabbitmq
 
 sudo: required
 language: ruby
 script:
   - rvm list rubies
-  - ps ax
+  - ps axu
