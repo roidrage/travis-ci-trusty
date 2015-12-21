@@ -14,5 +14,3 @@ matrix:
 script: echo $TEST
 install: /bin/true
 language: cpp
-dist: precise
-sudo: required
