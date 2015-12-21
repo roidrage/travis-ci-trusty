@@ -1,5 +1,7 @@
-dist: precise
-sudo: required
-language: generic
-script: /bin/true
+os: linux
+matrix:
+  include:
+    - env: TEST=bla
+script: echo $TEST
 install: /bin/true
+language: cpp
