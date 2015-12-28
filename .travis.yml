@@ -1,2 +1,6 @@
-language: objective-c
-osx_image: xcode7
+sudo: false
+dist: precise
+env:
+  global: LUAJIT_BASE="LuaJIT-2.0.4"
+install: curl -v http://luajit.org/download/$LUAJIT_BASE.tar.gz
+script: /bin/true
