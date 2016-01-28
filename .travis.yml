@@ -1,2 +1,8 @@
-language: objective-c
-osx_image: xcode7
+language: ruby
+sudo: false
+addons:
+  apt:
+    packages:
+      - lftp
+install: /bin/true
+script: /bin/true
